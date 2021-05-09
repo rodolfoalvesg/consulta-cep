@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 80px;
+    background-color: rgb(9, 124, 201);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+    min-height: 400px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 1px 1px rgb(9, 124, 201);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#main table{
+    text-align: center;
+}
+
+#main table thead tr th{
+    padding: 5px 10px 5px 10px ;
+    background-color: rgb(9, 124, 201);
+    color: #fff;
+}
+
+#main table tbody tr td{
+    font-weight: 100;
+}
+#consulta-cep{
+    min-width: 100px;
+    min-height: 40px;
+    border: 1px solid rgb(9, 124, 201);
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    margin-top: 15px;
+}
+
+button{
+    min-width: 100px;
+    min-height: 30px;
+    background-color: rgb(9, 124, 201) ;
+    color: #fff;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color: rgba(9, 124, 201, 0.85)
+}
+
+#map{
+    border: 1px solid rgba(9, 124, 201, 0.85);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
